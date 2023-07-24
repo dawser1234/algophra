@@ -1,0 +1,39 @@
+ALGORITHM algorithm_name
+VAR
+    set_declarations
+    nm,nc,nv:INTEGER;
+    a:STRING;
+
+BEGIN
+    set_instructions
+    nv=0;
+    nm=1;
+    nc=0;
+    read(a[i]);
+    for(i=0;a[i]!=".";i++)
+    {
+         if (a[i]=" ")
+        {
+            nm++;
+        }
+        if (a[i]!=".")
+        {
+            nc++;
+        }
+        if (a[i]in [a,e,o,y,u,i,A,E,O,Y,U,I])
+        {
+            nv++;
+        }
+        
+        
+    }
+    if (a[0]=" ")
+    {
+        nm--;
+    }
+    
+
+        
+    
+
+END
